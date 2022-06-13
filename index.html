@@ -1,15 +1,112 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Название</title>
-  </head>
-  <body>
-    <header>
-    </header>
-    <main>
-    </main>
-    <footer>
-    </footer>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/svg/favicon.ico">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+         <ul class="nav-list">
+           <li class="nav-item">
+             <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+           <li class="nav-item">
+             <a href="#summary" class="nav-link">Summary</a>
+            </li>
+           <li class="nav-item">
+             <a href="#skills" class="nav-link">Skills</a>
+            </li>
+           <li class="nav-item">
+             <a href="#code" class="nav-link">Code</a>
+            </li>
+           <li class="nav-item">
+             <a href="#courses" class="nav-link">Courses</a>
+            </li>
+           <li class="nav-item">
+             <a href="#education" class="nav-link">Education</a>
+            </li>
+           <li class="nav-item">
+             <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <main class="main">
+    <div class="container, main-container">
+      <section class="section" id="profile">
+        <img src="assets/img/photo.jpg" class="my-photo" alt="My photo">
+        <h1 class="section-title">Nelli Ezhova</h1>
+        <h2 class="section-title">Front-End Developer</h2>
+      </section>
+      <section class="section" id="contacts">
+        <h3 class="section-title">Contacts</h3>
+        <ul class="contacts-list">
+          <li class="contacts-item"><img src="assets/svg/address.png" alt="address icon">&nbsp;Nizhny Novgorod, Russia</li>
+          <li class="contacts-item"><img src="assets/svg/call.png" alt="phone icon">&nbsp;+7 904 794 24 28</li>
+          <li class="contacts-item"><img src="assets/svg/email.png" alt="email icon">&nbsp;nelly.yakubova@gmail.com</li>
+          <li class="contacts-item"><img src="assets/svg/github.png" alt="github icon">&nbsp;ImuNeli</li>
+          <li class="contacts-item"><img src="assets/svg/school.png" alt="school icon">&nbsp;RS School: Nelli Ezhova</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h3 class="section-title">Summary</h3>
+        <p>My goal is to finish all Stage in RS School and work in a big Develop company</p>
+      </section>
+      <section class="section" id="skills">
+        <h3 class="section-title">Skills</h3>
+        <ul class="skills-list">
+          <li class="skills-item">HTML5</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item">CMS: Drupal 9</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h3 class="section-title">Code</h3>
+        <code>
+          function multiply(a, b){
+          <br>return a * b
+        <br>}</code>
+      </section>
+      <section class="section" id="courses">
+        <h3 class="section-title">Courses</h3>
+        <ul class="courses-list">
+          <li class="courses-item">Advanced training course "Web programmer", Tomsk State University, TSU</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h3 class="section-title">Education</h3>
+        <ul class="education-list">
+          <li class="education-item">Lobachevsky State University of Nizhny Novgorod</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h3 class="section-title">Languages</h3>
+        <ul class="languages-list">
+          <li class="languages-item">Russian - Native</li>
+          <li class="languages-item">English - A1 Elementary</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li class="footer-item"><small>@2022</small></li>
+        <li class="footer-item">
+          <a href="https://github.com/ImuNeli" target="_blank"><img src="assets/svg/github.png" class="github" alt="GitHub"></a>
+        </li>
+        <li class="footer-item">
+          <a href="https://rs.school/js/" target="_blank"><img src="assets/svg/rs_school_js.svg" class="rsschool" alt="Logo RS School">
+          </a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
 </html>
