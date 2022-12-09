@@ -25,3 +25,6 @@ My goal is to finish all Stage in RS School and work in a big Develop company.
   + "Fundamentals Of Front-End Development", Innopolis University
   + "JS/FE Pre-School 2022Q2", The Rolling Scopes, RS School
   + "Web programmer", Tomsk State University, TSU
+## Languages
+  * Russian - Native
+  * English - A1 Elementary
