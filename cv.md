@@ -21,3 +21,7 @@ My goal is to finish all Stage in RS School and work in a big Develop company.
         }
 ## Education
   + Lobachevsky State University of Nizhny Novgorod
+## Courses
+  + "Fundamentals Of Front-End Development", Innopolis University
+  + "JS/FE Pre-School 2022Q2", The Rolling Scopes, RS School
+  + "Web programmer", Tomsk State University, TSU
