@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/img/favicon.ico">
   <title>cv</title>
 </head>
+
 <body>
+  <header class="header">
+    <div class="header-container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Contacts</a>
+          </li>
+          <li class="nav__item">
+            <a href="#summary" class="nav__link">Summary</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#code" class="nav__link">Code</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="#languages" class="nav__link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <div class="left-column">
+        <div class="my-photo">
+          <img src="./assets/img/photo.JPG" alt="My photo">
+        </div>
+        <section class="summary" id="summary">
+          <h2 class="summary__title section__title">Summary</h2>
+          <p>I am a Junior Front-End Developer, who loves to challenging new skills.</p>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="skills__title section__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML5</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">Redux</li>
+            <li class="skills__item">Figma</li>
+            <li class="skills__item">CMS: Drupal 9</li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h2 class="languages__title section__title">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">Russian - Native</li>
+            <li class="languages__item">English - A1 Elementary</li>
+          </ul>
+        </section>
+        <section class="contacts" id="contacts">
+          <h2 class="contacts__title section__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><img src="./assets/img/address.png" alt="address icon">&nbsp;Nizhny Novgorod,
+              Russia</li>
+            <li class="contacts__item"><img src="./assets/img/call.png" alt="phone icon">&nbsp;+7 904 794 24 28</li>
+            <li class="contacts__item"><img src="./assets/img/email.png" alt="email icon">&nbsp;ezhova.nelli@gmail.com
+            </li>
+            <li class="contacts__item"><img src="./assets/img/github.png" alt="github icon">&nbsp;ImuNeli</li>
+            <li class="contacts__item"><img src="./assets/img/school.png" alt="school icon">&nbsp;RS School: Nelli
+              Ezhova
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-column">
+        <section class="profile" id="profile">
+          <h1 class="profile__first-title">Nelli Ezhova</h1>
+          <h2 class="profile__second-title">Front-End Developer</h2>
+        </section>
+        <section class="code" id="code">
+          <h2 class="code__title section__title">Code</h2>
+          <code>
+          module.exports = function reverse (n) {
+            return Math.abs(n).toString().split('').reverse().join('');
+        }        
+          </code>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="projects__title section__title">Projects</h2>
+          <ul class="projects__list">
+            <li class="projects__item">Travel: <a
+                href="https://rolling-scopes-school.github.io/imuneli-JSFEPRESCHOOL2022Q2/travel/"
+                target="_blank">Travel</a></li>
+            <li class="projects__item">Momentum: <a
+                href="https://rolling-scopes-school.github.io/imuneli-JSFEPRESCHOOL2022Q2/momentum/"
+                target="_blank">Momentum</a></li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="education__title section__title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">Lobachevsky State University of Nizhny Novgorod</li>
+            <li class="education__item">"Web programmer", Tomsk State University, TSU</li>
+            <li class="education__item">"JS/FE Pre-School 2022Q2", The Rolling Scopes, RS School</li>
+            <li class="education__item">"Fundamentals Of Front-End Development", Innopolis University</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+      <ul class="footer__list">
+        <li class="footer__item"><small>2022</small></li>
+        <li class="footer__item">
+          <a href="https://github.com/ImuNeli" target="_blank"><img src="./assets/img/github.png" class="github"
+              alt="GitHub"></a>
+        </li>
+        <li class="footer__item">
+          <a href="https://gitlab.com/ImuNeli" target="_blank"><img src="./assets/img/gitlab.png" class="gitlab"
+              alt="GitLab"></a>
+        </li>
+        <li class="footer__item">
+          <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg"
+              class="rsschool" alt="Logo RS School">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>
