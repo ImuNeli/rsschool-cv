@@ -1,0 +1,164 @@
+/* Great Vibes - 400 */
+
+@font-face {
+    font-family: "Great Vibes";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/GreatVibes-Regular.ttf");
+}
+
+/* Source Sans Pro - 400 */
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/SourceSansPro-Regular.ttf");
+}
+
+/* main style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #544837;
+    background-color: #BCD0E5;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-container,
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.left-column,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 10px;
+}
+
+.left-column {
+    background-color: #BCD0E5;
+    color: #ffffff;
+}
+
+.right-column {
+    color: #2F281E;
+    background-color: #ffffff;
+}
+
+.nav__list,
+.footer__list {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    color: #ffffff;
+}
+
+.nav__list a {
+    color: #ffffff;
+}
+
+.nav__list a:hover {
+    color: #2A80A5;
+}
+
+.nav__list a:active {
+    color: #869886;
+}
+
+.skills__list,
+.languages__list,
+.contacts__list,
+.projects__list,
+.courses__list,
+.education__list {
+    list-style: square;
+    list-style-position: inside;
+}
+
+.projects__list a {
+    color: #2A80A5;
+}
+
+.projects__list a:hover {
+    color: #BCD0E5;
+}
+
+.projects__list a:active {
+    color: #869886;
+}
+
+.profile__first-title,
+.profile__second-title {
+    padding: 10px;
+    font-family: "Great Vibes";
+    letter-spacing: 5px;
+    color: #2F281E;
+    background-color: #BCD0E5;
+}
+
+.section__title {
+    padding: 10px;
+    font-family: "Great Vibes";
+    letter-spacing: 5px;
+    background-color: #BCD0E5;
+}
+
+.my-photo img {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.contacts__item img {
+    width: 16px;
+}
+
+.github {
+    height: 40px;
+}
+
+.gitlab {
+    height: 30px;
+}
+
+.rsschool {
+    height: 40px;
+}
